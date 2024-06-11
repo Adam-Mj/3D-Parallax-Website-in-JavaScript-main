@@ -1,0 +1,41 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "axe/name-role-value": [
+      "default",
+      {
+        "link-name": "off"
+      }
+    ],
+    "compat-api/html": [
+      "default",
+      {
+        "ignore": [
+          "link[referrerpolicy]"
+        ]
+      }
+    ],
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "color: #ffff",
+          "backdrop-filter",
+          "grid-template-columns",
+          "display: grid",
+          "grid-template-columns: repeat(2, 1fr)",
+          "background-color: #0b372dbb"
+        ]
+      }
+    ],
+    "css-prefix-order": "off",
+    "axe/text-alternatives": [
+      "default",
+      {
+        "image-alt": "off"
+      }
+    ]
+  }
+}
